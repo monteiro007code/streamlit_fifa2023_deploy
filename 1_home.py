@@ -1,6 +1,6 @@
 import webbrowser
 from datetime import datetime
-
+import openai
 import pandas as pd
 import streamlit as st
 
