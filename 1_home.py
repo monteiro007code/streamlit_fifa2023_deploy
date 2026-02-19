@@ -21,8 +21,14 @@ if "data" not in st.session_state:
 st.markdown("# FIFA23 OFICIAL DATASET! ⚽️")
 st.sidebar.markdown("Desenvovido por [Asimov Academy](https://www.asimov.academy/)")
 
-btn = st.button("Acesse os dados no Kaggle")
-if btn:
-    webbrowser.open_new_tab(
-        "https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset"
-    )
+btn = st.link_button(
+    "Acesse os dados no Kaggle",
+    "https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset"
+)
+
+st.markdown("""
+Este é um projeto de análise de dados utilizando o dataset oficial do FIFA 23. 
+O objetivo é explorar e analisar os dados dos jogadores para obter insights sobre suas características, 
+desempenho e valor de mercado. O dataset contém informações detalhadas sobre os jogadores, incluindo atributos físicos, 
+habilidades técnicas, estatísticas de desempenho e muito mais.""")
+
