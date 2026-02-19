@@ -2,4 +2,4 @@ streamlit
 openai
 
 ''' Este arquivo é o requirements.txt, onde estão listadas as bibliotecas necessárias 
-para rodar o projeto. '''
+para rodar o projeto.'''
